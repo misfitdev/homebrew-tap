@@ -1,26 +1,26 @@
 class GitRouter < Formula
   desc "Route SSH keys and HTTPS credentials by org/namespace in git remote URLs"
   homepage "https://github.com/misfitdev/git-router"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/misfitdev/git-router/releases/download/v0.1.0/git-router-aarch64-apple-darwin.tar.gz"
-      sha256 "81f9eea0c6e2d55a23354f23d6c91d36f6adfd9bf693e897941b064aed125569"
+      url "https://github.com/misfitdev/git-router/releases/download/v0.1.1/git-router-aarch64-apple-darwin.tar.gz"
+      sha256 "442087075a499d4612ce5c94cb5f2f32a6b6f2ced474e9f10c66b14ea03af6b3"
     else
-      url "https://github.com/misfitdev/git-router/releases/download/v0.1.0/git-router-x86_64-apple-darwin.tar.gz"
-      sha256 "c9bb65a45e5e6364b318d25f768fe0298c06205c4da0cea3228fa8e93e0d6131"
+      url "https://github.com/misfitdev/git-router/releases/download/v0.1.1/git-router-x86_64-apple-darwin.tar.gz"
+      sha256 "236723887d38069cf657f3b6c51294f8b8f6d7e636a755b3d5f198d4f35f06b8"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/misfitdev/git-router/releases/download/v0.1.0/git-router-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9464de7e2a2baf33c2fe127e8c7b0d9488ab1685e1aa09f4a591c5ab489240e2"
+      url "https://github.com/misfitdev/git-router/releases/download/v0.1.1/git-router-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d30062c72ad014fd4390de0701f4c23ec7b7d343bce8d0c27121458ef482baf6"
     else
-      url "https://github.com/misfitdev/git-router/releases/download/v0.1.0/git-router-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "641699887a74bfb9f6d3e7e70840dcb82df1902c84adcb34b233d734146d7e9c"
+      url "https://github.com/misfitdev/git-router/releases/download/v0.1.1/git-router-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "81ff0e189c8f73cc29a5d14ad700f256815dc988df6e0c9cea0973fe6796c2b2"
     end
   end
 
