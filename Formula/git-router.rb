@@ -7,20 +7,20 @@ class GitRouter < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/misfitdev/git-router/releases/download/v0.3.0/git-router-aarch64-apple-darwin.tar.gz"
-      sha256 "06e9f273d454494ed4478d6ec8d9ba98a82875877a1525b11b0f3c8c6ecaaa95"
+      sha256 "9eb85652e1241d412acf8b348ec16f3a73bfe7c3a7ae10be28129f37c7cc9b16"
     else
       url "https://github.com/misfitdev/git-router/releases/download/v0.3.0/git-router-x86_64-apple-darwin.tar.gz"
-      sha256 "29c208c25992600244dba1caa91dfbd4596314f9169fe798fc950f9c62904fdb"
+      sha256 "bb738a5539f541c88f9c1aa4fe11ed08a7f6d53d4395520ff68f1ca7c4e1c725"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/misfitdev/git-router/releases/download/v0.3.0/git-router-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7909a2d89ddcf58aabc42702ac9cf505975435682a9ade513f3f6ac7870f6ba7"
+      sha256 "a5a6dfcd7f3686ed63a671cfb880e13873205850d1e0e88b302648401827a736"
     else
       url "https://github.com/misfitdev/git-router/releases/download/v0.3.0/git-router-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a3f74dfaf8885f4669af25973027aba2090b11bc0a32324d70d46213a531fcb4"
+      sha256 "ba54828b37ab5c7384871ebcf7891c73c997b02ae7b88bfbfc9509e00e9cde03"
     end
   end
 
