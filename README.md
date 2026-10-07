@@ -6,4 +6,5 @@ Homebrew formulae for Misfit Dev projects.
 
 ```sh
 brew install misfitdev/tap/git-router
+brew install --cask misfitdev/tap/daisy
 ```
