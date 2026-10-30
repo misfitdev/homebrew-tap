@@ -1,6 +1,6 @@
 cask "daisy" do
-  version "0.11.1"
-  sha256 "c3650f7b1f99285d134dcfd2e7f09028d3898d3b957db0133b2b09cb1ce9b5c8"
+  version "0.11.2"
+  sha256 "36b7b6ec582f9ceab471337911231c2c12f23f375c18b6402c79b3052e2ccdf0"
 
   url "https://github.com/misfitdev/daisy/releases/download/v#{version}/Daisy-#{version}-macos-arm64.dmg"
   name "Daisy"
